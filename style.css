@@ -23,7 +23,7 @@ body{
 
 .bos:hover
 {
-    transform: scale(2) translateX(40px);
+    transform: scale(2);
     transition: .4s;
 }
 
@@ -78,7 +78,7 @@ body{
 
 .bos3:hover
 {
-    transform: scale(2) translateX(-40px);
+    transform: scale(2);
     transition: .4s;
 }
 
