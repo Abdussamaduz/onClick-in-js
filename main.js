@@ -1,22 +1,22 @@
-const button = button.querySelector(".bos");
+const button = document.querySelector(".bos");
 
-button.onclick = function () {
-    const body = body.querySelector(".body");
+button.onclick = () => {
+    const body = document.querySelector(".body");
     body.style.backgroundColor = "#f009";
 };
 
 
-const butto = butto.querySelector(".bos2");
+const butto = document.querySelector(".bos2");
 
-butto.onclick = function () {
-    const bod = bod.querySelector(".body");
+butto.onclick = () => {
+    const bod = document.querySelector(".body");
     bod.style.backgroundColor = "#ff09";
 };
 
 
-const butt = butt.querySelector(".bos3");
+const butt = document.querySelector(".bos3");
 
-butt.onclick = function () {
-    const bo = bo.querySelector(".body");
+butt.onclick = () => {
+    const bo = document.querySelector(".body");
     bo.style.backgroundColor = "#0f09";
 };
