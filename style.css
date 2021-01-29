@@ -46,8 +46,8 @@ body{
 
 .bos:active
 {
-    background-color: black;
-    color: #fff;
+    background-color: #0f0;
+    color: #f00;
 }
 
 .bos2
@@ -75,7 +75,7 @@ body{
 .bos2:active
 {
     background-color: black;
-    color: #fff;
+    color: #ff0;
 }
 
 .bos3
@@ -102,8 +102,8 @@ body{
 
 .bos3:active
 {
-    background-color: black;
-    color: #fff;
+    background-color: #f00;
+    color: #0f0;
 }
 
 .bos4
@@ -131,6 +131,6 @@ body{
 
 .bos4:active
 {
-    background-color: #fff;
+    background-color: #ff0;
     color: #000;
 }
