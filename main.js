@@ -1,23 +1,22 @@
+const button = button.querySelector(".bos");
 
-let button = document.querySelector('.bos')
-
-button.onclick = () => {
-    let body = document.querySelector('.body')
-    body.style.backgroundColor = '#f009'
-}
-
-
-let butto = document.querySelector('.bos2')
-
-butto.onclick = () => {
-    let body = document.querySelector('.body')
-    body.style.backgroundColor = '#ff09'
-}
+button.onclick = function () {
+    const body = body.querySelector(".body");
+    body.style.backgroundColor = "#f009";
+};
 
 
-let butt = document.querySelector('.bos3')
+const butto = butto.querySelector(".bos2");
 
-butt.onclick = () => {
-    let body = document.querySelector('.body')
-    body.style.backgroundColor = '#0f09'
-}
+butto.onclick = function () {
+    const bod = bod.querySelector(".body");
+    bod.style.backgroundColor = "#ff09";
+};
+
+
+const butt = butt.querySelector(".bos3");
+
+butt.onclick = function () {
+    const bo = bo.querySelector(".body");
+    bo.style.backgroundColor = "#0f09";
+};
